@@ -10,5 +10,6 @@ export default defineConfig({
   preview: {
     port: parseInt(process.env.PORT) || 8080,
     host: '0.0.0.0',
+    allowedHosts: ['dashboard-mock.onrender.com'],
   },
 })
