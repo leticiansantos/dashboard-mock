@@ -10,7 +10,8 @@
       "Bash(/usr/local/bin/brew list *)",
       "Bash(/usr/local/bin/brew install *)",
       "Bash(curl -s -o /tmp/node.pkg \"https://nodejs.org/dist/v22.12.0/node-v22.12.0.pkg\")",
-      "Bash(bash)"
+      "Bash(bash)",
+      "WebFetch(domain:render.com)"
     ]
   }
 }
